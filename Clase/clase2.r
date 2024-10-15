@@ -6,3 +6,7 @@ B <- c(73, 24, 70, 43, 26, 76, 9, 73, 13, 47, 73, 53, 43, 25, 1, 24, 51, 53, 8)
 
 union <- paste(alumnosipcd, A, B, c)
 union
+
+#Funciones
+function(x,...)
+UseMethod("mean")
