@@ -15,7 +15,10 @@ caso
 
 numeros <- c("As","Dos","Tres","Cuatro","Cinco","Seis","Siete","Ocho","Nueve","Diez","Jack","Reina","Rey")
 palos<-c("de Corazones","de Diamantes","de Picas","de Tréboles")
+
+
 combinatoria<-expand.grid(numero=numeros,palo=palos)
+combinatoria
 paste(combinatoria$numero,combinatoria$palo)
 
 cuevas<-sample(paste(combinatoria$numero,combinatoria$palo),5)
